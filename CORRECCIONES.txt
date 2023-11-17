@@ -1,0 +1,19 @@
+Consideraciones a tomar encuenta:
+
+1 - En muchos casos los espacios se usan como delimitadores, por lo que puede que de error si los tokens estan pegados como por ejemplo: "println(" en este caso daria error porque se ocupa separar el "println (" o tambien en la asignacion de variables 
+int num;
+Forma NO leible:
+num=12;
+-----------------------
+Forma leible:
+num = 12;
+
+
+2- El punto "Se debe validar que aparezca después del main y que solo aparezca una vez" de la declaracion del Scanner por temas de tiempo no pude realizarlo.
+
+
+3- Solo para informar, si hay una validacion por si esta mal escrito el int por ejemplo, si esta escrito intt dara el error del punto 10: "----- ERROR -----, en la linea XXXX, comando desconocido" sin embargo por cada tipo de dato si hay una validacion mas especifica, trate de que salgan las 2 pero la validacion del punto 10 se sobre pone, pero para informar si existe la validacion si esta mal escrito de forma mas especifica: Validaciones, Linea: 296: System.out.println("Error en línea " + formatearContador(contador) + ": Java es sensible a mayúsculas y minúsculas. ¿Quisiste decir 'int'?");
+
+
+4- Reglas para la asignacion de variables: si la variable esta declarada anteriormente pero le falta el = si se valida, si no esta declarada anteriormente pero tiene el = si se valida tambien, pero si no esta declara y falta el = no se valida.
+
